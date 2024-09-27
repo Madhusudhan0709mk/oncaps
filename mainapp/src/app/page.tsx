@@ -6,6 +6,9 @@ import Filter from "@/components/Filter";
 import List from "@/components/List";
 import { AccordionDemo } from "@/components/sections/Accordian";
 import {Pricing} from "@/components/sections/Pricing"
+import { LoginForm } from "@/components/auth/Login";
+import { SignUp } from "@/components/auth/SignUp";
+import { Dashboard } from "@/components/User/Profile";
 
 export default function Home() {
   return (
@@ -18,7 +21,12 @@ export default function Home() {
     <AccordionDemo />
     <Pricing />
     <LogoTicker/>
+    <LoginForm />
+    <br></br>
     
+    <br></br>
+
+    <SignUp />
     <Footer />
    
     </>
