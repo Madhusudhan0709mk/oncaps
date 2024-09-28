@@ -15,7 +15,8 @@ export const description =
   "A login form with email and password. There's an option to login with Google and a link to sign up if you don't have an account."
 
 export function LoginForm() {
-  return (
+  return (<>
+    <br></br>
     <Card className="mx-auto max-w-sm bg-gray-700">
       <CardHeader>
         <CardTitle className="text-2xl">Login</CardTitle>
@@ -52,11 +53,12 @@ export function LoginForm() {
         </div>
         <div className="mt-4 text-center text-sm">
           Don&apos;t have an account?{" "}
-          <Link href="#" className="underline">
+          <Link href="/signup" className="underline">
             Sign up
           </Link>
         </div>
       </CardContent>
     </Card>
+    </>
   )
 }

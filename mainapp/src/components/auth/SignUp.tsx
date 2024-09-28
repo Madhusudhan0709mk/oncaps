@@ -1,4 +1,3 @@
-
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
@@ -17,6 +16,9 @@ export const description =
 
 export function SignUp() {
   return (
+    <> 
+    <br></br>
+    
     <Card className="mx-auto max-w-sm bg-gray-700">
       <CardHeader>
         <CardTitle className="text-xl">Sign Up</CardTitle>
@@ -64,5 +66,6 @@ export function SignUp() {
         </div>
       </CardContent>
     </Card>
+    </>
   )
 }

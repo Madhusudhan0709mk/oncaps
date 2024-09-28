@@ -21,7 +21,7 @@ export const Navbar = () => {
 
           {/* Toggle Button for Mobile View */}
           <button
-            className="block lg:hidden text-white"
+            className="block lg:hidden text-white ml-auto"
             onClick={toggleMenu}
           >
             <svg
@@ -43,63 +43,74 @@ export const Navbar = () => {
           {/* Navbar Links */}
           <div className="hidden lg:flex lg:items-center lg:space-x-10 rtl:space-x-reverse">
         
-              <Link href="#" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm" aria-current="page">
-                Home
-              </Link>
+              
           
             
-              <Link href="/jobdetail" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
-                Job Detail
+              <Link href="/" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                Jobs
               </Link>
             
-      
-              <Link href="#" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
-                Team
+              <Link href="/internship" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                Internships
+              </Link> 
+
+              <Link href="/about" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                About
               </Link>
           
            
-              <Link href="#" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+              <Link href="/features" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
                 Features
+              </Link>
+              <Link href="/login" className="text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                Login/SignUp
               </Link>
            
           </div>
 
           {/* Join Button */}
+          <Link href="/pricing" >
           <button className="hidden text-white lg:block hover:shadow-[0px_0px_12px_#190d2e] py-1 px-4 rounded-lg font-medium text-sm  bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff]">
-            Join
+            Upgrade To Pro
           </button>
+          </Link>
         </div>
 
         {/* Mobile Menu */}
         <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
           <ul className="flex flex-col space-y-2 mt-4">
+            
             <li>
-              <Link href="#" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm" aria-current="page">
-                  Home
-               
-              </Link>
-            </li>
-            <li>
-              <Link href="/jobdetail" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
-                  Job Detail
+              <Link href="/" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                  Jobs
               
               </Link>
             </li>
             <li>
-              <Link href="#" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
-                  Team
+              <Link href="/internship" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                  Internships
               </Link>
             </li>
             <li>
-              <Link href="#" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+              <Link href="/about" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
+                  About
+              </Link>
+            </li>
+            <li>
+              <Link href="/features" className="dark:text-white hover:shadow-[0px_0px_12px_#8c45ff] bg-gradient-to-b py-1 px-4 rounded-lg font-medium text-sm">
                   Features
              
               </Link>
             </li>
             <li>
+             
+            </li>
+            <li>
+              <Link href="/login">
               <button className="w-full hover:shadow-[0px_0px_12px_#190d2e] py-1 px-4 rounded-lg font-medium text-sm dark:text-white bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff]">
-                Join
+                Login/SignUp
               </button>
+              </Link>
             </li>
           </ul>
         </div>
