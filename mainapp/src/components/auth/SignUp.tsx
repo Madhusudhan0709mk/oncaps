@@ -19,10 +19,10 @@ export function SignUp() {
     <> 
     <br></br>
     
-    <Card className="mx-auto max-w-sm bg-gray-700">
+    <Card className="mx-auto text-white max-w-sm bg-gradient-to-r from-indigo-400 via-sky-500 to-purple-300">
       <CardHeader>
         <CardTitle className="text-xl">Sign Up</CardTitle>
-        <CardDescription>
+        <CardDescription className="text-white">
           Enter your information to create an account
         </CardDescription>
       </CardHeader>
@@ -60,7 +60,7 @@ export function SignUp() {
         </div>
         <div className="mt-4 text-center text-sm">
           Already have an account?{" "}
-          <Link href="#" className="underline">
+          <Link href="/login" className="underline">
             Sign in
           </Link>
         </div>

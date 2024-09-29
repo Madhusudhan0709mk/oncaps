@@ -22,7 +22,7 @@ export default function Internship(){
 
                    
                 </ul>
-                <div className="relative w-full max-w-sm">
+                <div className="relative w-full max-w-sm ">
                     <svg className="absolute top-1/2 -translate-y-1/2 left-4 z-50" width="20" height="20"
                         viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -48,9 +48,9 @@ export default function Internship(){
                 fill="none">
                 <path d="M0 1H1216" stroke="#E5E7EB" />
             </svg>
-            <div className="grid grid-cols-12">
+            <div className="grid grid-cols-12 ">
                 <div className="col-span-12 md:col-span-3 w-full max-md:max-w-md max-md:mx-auto">
-                    <div className="box rounded-xl border border-gray-300 bg-white p-6 w-full md:max-w-sm">
+                    <div className="box rounded-xl border border-gray-300 bg-gradient-to-r from-fuchsia-300 via-slate-300 to-sky-300 p-6 w-full md:max-w-sm">
                         <h6 className="font-medium text-base leading-7 text-black mb-5">Your Workspace</h6>
                         <div className="flex items-center mb-5 gap-1">
                             <div className="relative w-full">
@@ -115,7 +115,7 @@ export default function Internship(){
                         </button>
                     </div>
 
-                    <div className="mt-7 box rounded-xl border border-gray-300 bg-white p-6 w-full md:max-w-sm">
+                    <div className="mt-7 box rounded-xl border border-gray-300 bg-gradient-to-r from-fuchsia-300 via-slate-300 to-sky-300 p-6 w-full md:max-w-sm">
                         <div className="flex items-center justify-between w-full pb-3 border-b border-gray-200 mb-7">
                             <p className="font-medium text-base leading-7 text-black ">Filter Plans</p>
                             <p

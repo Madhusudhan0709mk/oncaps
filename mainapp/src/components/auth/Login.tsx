@@ -17,22 +17,23 @@ export const description =
 export function LoginForm() {
   return (<>
     <br></br>
-    <Card className="mx-auto max-w-sm bg-gray-700">
+    <Card className="mx-auto text-white max-w-sm bg-gradient-to-r from-indigo-400 via-sky-500 to-purple-300">
       <CardHeader>
         <CardTitle className="text-2xl">Login</CardTitle>
-        <CardDescription>
+        <CardDescription className="text-white">
           Enter your email below to login to your account
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="grid gap-4">
-          <div className="grid gap-2">
+        <div className="grid gap-4 text-white" >
+          <div className="grid gap-2 text-white">
             <Label htmlFor="email">Email</Label>
             <Input
               id="email"
               type="email"
               placeholder="m@example.com"
               required
+              className="text-white"
             />
           </div>
           <div className="grid gap-2">

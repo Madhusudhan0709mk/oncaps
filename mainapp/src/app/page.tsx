@@ -21,7 +21,7 @@ export default function Home() {
     <br></br>
     
     <br></br>
-    <div className="h-3/4 w-1/2 mx-auto">
+    <div className="h-3/4 w-1/2 mx-auto background: linear-gradient(to right, hsl(222.2, 47.4%, 11.2%), hsl(201, 90%, 50%), hsl(270, 47%, 75%));">
 
     <HeroVideoDialog videoSrc={videoSrc} thumbnailSrc={thumbnailSrc}/>
     </div>
