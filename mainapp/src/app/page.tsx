@@ -8,13 +8,14 @@ import { AccordionDemo } from "@/components/sections/Accordian";
 import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 
+
 export default function Home() {
   const videoSrc= "https://www.youtube.com/embed/c2ty60dAZ3s?si=qgplVmbzakY6645o";
   const thumbnailSrc="https://www.google.co.in/imgres?q=yt%20thumbnail&imgurl=https%3A%2F%2Fcdn.kwork.com%2Fpics%2Ft3%2F83%2F26221220-64274e0b7a7eb.jpg&imgrefurl=https%3A%2F%2Fkwork.com%2Fsmm-design%2F26221220%2Fdesign-eye-catching-youtube-thumbnails-to-increase-more-views&docid=o7NSm77DMQx_5M&tbnid=rsNb2nfWyS9K4M&vet=12ahUKEwjQ6riI9eOIAxUL2jgGHVkIBaYQM3oECHQQAA..i&w=660&h=440&hcb=2&ved=2ahUKEwjQ6riI9eOIAxUL2jgGHVkIBaYQM3oECHQQAA";
   return (
     <>
     
-    <Navbar />
+  
     <Style />
     <Filter />
     <List />
@@ -38,7 +39,6 @@ export default function Home() {
     
     <br></br>
 
-    <Footer />
    
     </>
   );
